@@ -11,6 +11,14 @@
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
+
+<form action="${pageContext.request.contextPath}/formHandler" method="POST">
+	<input name="input"></input>
+	<input type="submit" value="Submit" />
+</form>
+
+<p>Form submission: ${submitData}</p>
+
 </body>
 
 <script src="https://code.jquery.com/jquery-2.1.4.js"></script>

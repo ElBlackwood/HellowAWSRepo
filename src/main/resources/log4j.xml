@@ -12,7 +12,8 @@
 	
 	<!-- Application Loggers -->
 	<logger name="com.hello.aws">
-		<level value="info" />
+		<level value="debug" />
+		<appender-ref ref="console" />
 	</logger>
 	
 	<!-- 3rdparty Loggers -->
