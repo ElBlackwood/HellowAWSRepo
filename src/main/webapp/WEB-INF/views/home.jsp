@@ -14,7 +14,7 @@
 
 <form action="${pageContext.request.contextPath}/formHandler" method="POST">
 	<input name="input"></input>
-	<input type="submit" value="Submit" />
+	<input type="submit" value="Firerockets!" />
 </form>
 
 <p>Form submission: ${submitData}</p>

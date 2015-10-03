@@ -11,7 +11,7 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="com.hello.aws">
+	<logger name="com.hello.aws" additivity="false">
 		<level value="debug" />
 		<appender-ref ref="console" />
 	</logger>
